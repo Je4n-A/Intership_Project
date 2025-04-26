@@ -1,0 +1,36 @@
+alice:
+  password: password123
+  permissions:
+    revenue:
+      view: true
+      edit: true
+    expenses:
+      view: true
+      edit: false
+    payroll:
+      view: true
+      edit: true
+    forecasts:
+      view: true
+      edit: true
+    balance_sheet:
+      view: true
+      edit: true
+bob:
+  password: secret456
+  permissions:
+    revenue:
+      view: true
+      edit: false
+    expenses:
+      view: false
+      edit: false
+    payroll:
+      view: true
+      edit: false
+    forecasts:
+      view: true
+      edit: false
+    balance_sheet:
+      view: false
+      edit: false
